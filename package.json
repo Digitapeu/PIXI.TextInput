@@ -1,0 +1,20 @@
+{
+  "name": "@digitap/pixi.textinput",
+  "version": "1.0.0",
+  "description": "The `pixi.textinput` package adjusted to work in Vue applications",
+  "main": "src/PIXI.TextInput.js",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Digitapeu/PIXI.TextInput.git"
+  },
+  "author": "@digitap",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Digitapeu/PIXI.TextInput/issues"
+  },
+  "homepage": "https://github.com/Digitapeu/PIXI.TextInput#readme"
+}

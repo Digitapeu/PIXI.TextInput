@@ -303,11 +303,12 @@ class TextInput extends PIXI.Container{
 	_updateSubstitution(){
 		if(this.state==='FOCUSED'){
 			this._dom_visible = true
-			this._surrogate.visible = this.text.length===0
 		}else{
 			this._dom_visible = false
-			this._surrogate.visible = true
 		}
+		
+		this._surrogate.visible = true;
+
 		this._updateDOMInput()
 		this._updateSurrogate()
 	}
